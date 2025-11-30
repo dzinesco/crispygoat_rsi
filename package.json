@@ -5,15 +5,19 @@
   "description": "Recursive Self-Improvement in 100 lines — actually works",
   "main": "evolve.ts",
   "scripts": {
-    "start": "node evolve.ts"
+    "start": "npx tsx evolve.ts"
   },
   "keywords": ["rsi", "ai", "self-improvement", "singularity", "crispygoat"],
   "author": "CrispyGoatAI",
   "license": "MIT",
   "dependencies": {
+    "dockerode": "^4.0.2",
     "openai": "^4.67.1",
     "simple-git": "^3.25.0",
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1"
   },
   "engines": {
     "node": ">=18"
