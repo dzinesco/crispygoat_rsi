@@ -1,14 +1,21 @@
 {
-  "name": "rsi-100",
+  "name": "crispygoat_rsi",
   "version": "1.0.0",
   "type": "module",
+  "description": "Recursive Self-Improvement in 100 lines — actually works",
+  "main": "evolve.ts",
   "scripts": {
     "start": "node evolve.ts"
   },
+  "keywords": ["rsi", "ai", "self-improvement", "singularity", "crispygoat"],
+  "author": "CrispyGoatAI",
+  "license": "MIT",
   "dependencies": {
-    "sqlite3": "^5.1.7",
     "openai": "^4.67.1",
-    "dockerode": "^4.0.0",
-    "simple-git": "^3.25.0"
+    "simple-git": "^3.25.0",
+    "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
