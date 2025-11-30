@@ -1,0 +1,14 @@
+{
+  "name": "rsi-100",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node evolve.ts"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "openai": "^4.67.1",
+    "dockerode": "^4.0.0",
+    "simple-git": "^3.25.0"
+  }
+}
